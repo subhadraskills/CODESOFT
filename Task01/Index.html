@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="profile-pic">
+        <img src="subh_avtar.jpg" alt="Your Name" class="image">
+      </div>
+      <p>I am <b>Subhadra Kumari</b>, Computer Science and Engineering student a <i>Sitamarhi Institute of Technology</i>.</p>
+      <p>I create beautiful websites.</p>
+    </div>
+  </section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul class="project-list">
+      <li>
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website showcasing skills and projects.</p>
+      </li>
+      <li>
+        <h3>Landing Page</h3>
+        <p>A responsive landing page design for a product or service.</p>
+      </li>
+      <li>
+        <h3>Calculator</h3>
+        <p>A simple calculator application built with HTML, CSS, and JavaScript.</p>
+      </li>
+    </ul>
+  </section>
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skill-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>GitHub</li>
+      <li>JavaScript</li>
+      <li>C / C++</li>
+      <li>Data Structures</li>
+    </ul>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
